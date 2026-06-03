@@ -1,0 +1,96 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Dynamic weather background */
+body.dynamic-bg {
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease-in-out;
+}
+
+/* Container for app */
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Input box */
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Weather card styling */
+.weather-card {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.weather-card img {
+  width: 64px;
+  height: 64px;
+  margin-top: 10px;
+}
+
+/* Forecast section */
+.forecast-container {
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.forecast-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.forecast-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+.forecast-card img {
+  width: 48px;
+  height: 48px;
+  margin-top: 5px;
+}
