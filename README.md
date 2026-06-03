@@ -63,10 +63,4 @@ weather-app/
 
 ---
 
-## 👨‍💻 Developed By
-
-**Pankaj Kumar Saini**  
-_Aspiring Software Developer | C++ Enthusiast | Building Projects to Learn_
-
----
 
