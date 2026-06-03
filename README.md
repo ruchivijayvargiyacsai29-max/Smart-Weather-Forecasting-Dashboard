@@ -1,5 +1,6 @@
 
-# Weather Detection App
+# Smart-Weather-Forecasting-Dashboard
+
 
 A simple, elegant weather application built using **JavaScript**, **HTML**, and **CSS**. It fetches real-time weather data from the WeatherAPI and displays the current weather conditions along with a 3-day forecast for any city the user enters.
 
